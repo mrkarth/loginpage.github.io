@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(red,blue);
+}
+.container .box{
+    width: 30%;
+    height: 70vh;
+    border: 1px solid white;
+    padding: 20px;
+    backdrop-filter: blur(20px);
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 20px;
+    z-index: 10;
+    border: 1px groove rgb(18, 166, 239);
+    box-shadow: 0 8px 32px 0 rgb(18, 166, 239);
+}
+.container .box .content{
+    position: absolute;
+    /* display: flex;
+    flex-wrap: wrap; */
+}
+.container .box .content h3{
+    margin-top: 10%;
+    width: 100%;
+    margin-left: 140%;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    font-size: 25px;
+    font-weight: 700;
+    color: white;
+    letter-spacing: 3px;
+}
+#username{
+    margin-top: 25%;
+    margin-left: 15%;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    background-color: transparent;
+    border: 1px groove rgb(18, 166, 239);
+    border-radius: 50px;
+    width: 70%;
+    height: 40px;
+    padding-left: 15px;
+    color: white;
+}
+#password{
+    margin-top: 15%;
+    margin-left: 15%;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    background-color: transparent;
+    border: 1px groove rgb(18, 166, 239);
+    border-radius: 50px;
+    width: 70%;
+    height: 40px;
+    padding-left: 15px;
+    color: white;
+}
+.tickarea{
+    width: 100%;
+    height: 15%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 7%;
+    color: white;
+}
+.tickarea .check{
+    justify-content: center;
+    align-items: center;
+}
+.tickarea .forgot a{
+    color: white;
+    text-decoration: none;
+}
+.btn{
+    display: flex;
+    font-size: 16px;
+    margin-top: 2%;
+    margin-left: 15%;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    background-color: rgb(235, 12, 94);
+    border: 1px solid white;
+    border-radius: 50px;
+    width: 70%;
+    height: 40px;
+    padding-left: 13px;  
+}
+.btn a{
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-left: -19px;
+    z-index: 10;
+}
+.btn:hover{
+    background-color: transparent;
+}
+.txtarea{
+    margin-top: 2%;
+    margin-left: 20%;
+    color: white;
+}
+::placeholder{
+    color: rgba(255, 255, 255, 0.5);
+}
